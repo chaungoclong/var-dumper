@@ -1,0 +1,25 @@
+{
+  "name": "dragontnt/vardumper",
+  "description": "Simple var dumper for CLI and HTML compatible with PHP 7.4+",
+  "type": "library",
+  "keywords": [
+    "dump",
+    "debug"
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "DragonTNT\\VarDumper\\": "src/",
+      "DragonTNT\\VarDumper\\Tests\\": "tests/"
+    },
+    "files": [
+      "helpers.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Long (DragonTNT)",
+      "email": "chaungoclong2411@gmail.com"
+    }
+  ]
+}
